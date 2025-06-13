@@ -50,14 +50,7 @@ const defaultGameSettings: GameSettings = {
 // Mock online users for demonstration
 const generateMockOnlineUsers = (): User[] => {
   const mockUsers = [
-    { id: '12345', name: 'Ana Silva', email: '12345@student.edu', level: 3, totalScore: 1250, gamesPlayed: 8, correctAnswers: 45 },
-    { id: '67890', name: 'Carlos Santos', email: '67890@student.edu', level: 2, totalScore: 890, gamesPlayed: 5, correctAnswers: 32 },
-    { id: '11111', name: 'Maria Oliveira', email: '11111@student.edu', level: 4, totalScore: 1680, gamesPlayed: 12, correctAnswers: 67 },
-    { id: '22222', name: 'João Costa', email: '22222@student.edu', level: 1, totalScore: 420, gamesPlayed: 3, correctAnswers: 18 },
-    { id: '33333', name: 'Beatriz Lima', email: '33333@student.edu', level: 5, totalScore: 2100, gamesPlayed: 15, correctAnswers: 89 },
-    { id: '44444', name: 'Pedro Almeida', email: '44444@student.edu', level: 2, totalScore: 750, gamesPlayed: 6, correctAnswers: 28 },
-    { id: '55555', name: 'Sofia Rodrigues', email: '55555@student.edu', level: 3, totalScore: 1350, gamesPlayed: 9, correctAnswers: 52 },
-    { id: '66666', name: 'Lucas Ferreira', email: '66666@student.edu', level: 1, totalScore: 380, gamesPlayed: 2, correctAnswers: 15 }
+    { id: '158435', name: 'Ana Júlia Furtado', email: '12345@student.edu', level: 3, totalScore: 1250, gamesPlayed: 8, correctAnswers: 45 },
   ];
   
   // Randomly select 3-6 users to be "online"
